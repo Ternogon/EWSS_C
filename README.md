@@ -6,14 +6,15 @@
 **EWSS** _(Easy Windows Server Setup Tool)_ — утилита для быстрой и удобной стартовой конфигурации и/или отладки ОС семейства Windows Server. Задачей проекта было написание «подручной» утилиты с возможностью изменять системные параметры не используя стандартный интерфейс ОС. Избавление от PS, BAT консолей и создание информативного интерфейса.
 
 
+![image](https://user-images.githubusercontent.com/31628014/183946613-eb792a0b-76a5-46de-ac52-1fe19bf53e7d.png)
+
+
 ## Зависимости EWSS Tool C#
 
-Эта версия порт Native на .NET 6 C#:
+- **.NET 6 Desktop Runtime** и выше
+- **PowerShell 5** и выше
+
 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
-
-![ALT](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/PowerShell_5.0_icon.png/120px-PowerShell_5.0_icon.png?20151222103910 "Powershell")
-Для работы всего функционала утилиты необходим Powershell. Большая часть команд и вызовов работает через Powershell. 
-
 
 ## Функционал кнопок быстрого доступа
 
