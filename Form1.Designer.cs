@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Windows Server 2022", System.Windows.Forms.HorizontalAlignment.Left);
             System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Windows Server 2019", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("Windows Server 2016", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("Windows Server 2012 R2", System.Windows.Forms.HorizontalAlignment.Left);
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Windows Server 2022 Datacenter",
             "WX4NM-KYWYW-QJJR4-XV3QB-6VM33"}, -1);
@@ -48,24 +50,65 @@
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Windows Server 2019 Essentials",
             "WVDHN-86M7X-466P6-VHXV7-YY726"}, -1);
-            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("Windows 11", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("Windows 10", System.Windows.Forms.HorizontalAlignment.Left);
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Windows 11 Pro",
-            "WX4NM-KYWYW-QJJR4-XV3QB-6VM33"}, -1);
+            "Windows Server 2016 Datacenter",
+            "CB7KF-BWN84-R7R2Y-793K2-8XDDG"}, -1, System.Drawing.Color.Empty, System.Drawing.SystemColors.Window, null);
             System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Windows 11 Home",
-            "VDYBN-27WPP-V4HQT-9VMD4-VMK7H",
-            "Standart"}, -1);
+            "Windows Server 2016 Standard",
+            "WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY"}, -1);
             System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Windows 10 Pro",
-            "WMDGN-G9PQG-XVVXX-R3X43-63DFG"}, -1);
+            "Windows Server 2016 Essentials\t",
+            "JCKRF-N37P4-C2D82-9YXRT-4M63B"}, -1);
             System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Windows 10 Home Edition",
-            "N69G4-B89J2-4G8F4-WWYCC-J464C"}, -1);
+            "Windows Server 2012 R2 Standard",
+            "D2N9P-3P6X9-2R39C-7RTCD-MDVJX"}, -1);
             System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Windows 10 LTSB",
-            "WVDHN-86M7X-466P6-VHXV7-YY726"}, -1);
+            "Windows Server 2012 R2 Datacenter",
+            "W3GGN-FT8W3-Y4M27-J84CP-Q3VJ9"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows Server 2012 R2 Essentials",
+            "KNC87-3J2TX-XB4WP-VCPJV-M4FWM"}, -1);
+            System.Windows.Forms.ListViewGroup listViewGroup5 = new System.Windows.Forms.ListViewGroup("Windows 11 Semi-Annual", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup6 = new System.Windows.Forms.ListViewGroup("Windows 10 Semi-Annual", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup7 = new System.Windows.Forms.ListViewGroup("Windows 10 LTSC 2021 и 2019", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup8 = new System.Windows.Forms.ListViewGroup("Windows 10 LTSB 2016", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup9 = new System.Windows.Forms.ListViewGroup("Windows 10 LTSB 2015", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro",
+            "W269N-WFGWX-YVC9B-4J6C9-T83GX"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro N",
+            "MH37W-N47XK-V7XM9-C7227-GCQG9"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro для рабочих станций",
+            "NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro для рабочих станций N",
+            "9FNHH-K3HBT-3W4TD-6383H-6XYWF"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro для образовательных учреждений",
+            "6TP4R-GNPTD-KYYHQ-7B7DP-J447Y"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Pro для образовательных учреждений N",
+            "YVWGF-BXNMC-HTQYQ-CPQ99-66QFC"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 для образовательных учреждений",
+            "NW6C2-QMPVW-D7KKK-3GKT6-VCFB2"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 для образовательных учреждений N",
+            "2WH4N-8QGBV-H22JP-CT43Q-MDWWJ"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Корпоративная",
+            "NPPR9-FWDCX-D2C8J-H872K-2YT43"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Корпоративная N",
+            "DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Корпоративная G",
+            "YYVX9-NTFWV-6MDM3-9PT4T-4M68B"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Windows 11 Корпоративная G N",
+            "44RPN-FTY23-9VTTB-MP9BX-T84FV"}, -1);
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -389,9 +432,15 @@
             listViewGroup1.Name = "listViewGroup1";
             listViewGroup2.Header = "Windows Server 2019";
             listViewGroup2.Name = "listViewGroup2";
+            listViewGroup3.Header = "Windows Server 2016";
+            listViewGroup3.Name = "listViewGroup3";
+            listViewGroup4.Header = "Windows Server 2012 R2";
+            listViewGroup4.Name = "listViewGroup4";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             listViewGroup1,
-            listViewGroup2});
+            listViewGroup2,
+            listViewGroup3,
+            listViewGroup4});
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             listViewItem1.Group = listViewGroup1;
             listViewItem1.StateImageIndex = 0;
@@ -400,12 +449,24 @@
             listViewItem3.Group = listViewGroup2;
             listViewItem4.Group = listViewGroup2;
             listViewItem5.Group = listViewGroup2;
+            listViewItem6.Group = listViewGroup3;
+            listViewItem7.Group = listViewGroup3;
+            listViewItem8.Group = listViewGroup3;
+            listViewItem9.Group = listViewGroup4;
+            listViewItem10.Group = listViewGroup4;
+            listViewItem11.Group = listViewGroup4;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
             listViewItem3,
             listViewItem4,
-            listViewItem5});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11});
             this.listView1.Location = new System.Drawing.Point(3, 0);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
@@ -418,13 +479,13 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "OS";
+            this.columnHeader1.Text = "Версия операционной системы";
             this.columnHeader1.Width = 450;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Key";
-            this.columnHeader2.Width = 450;
+            this.columnHeader2.Text = "Ключ продукта клиента KMS";
+            this.columnHeader2.Width = 440;
             // 
             // tabPage7
             // 
@@ -444,27 +505,49 @@
             this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader3,
             this.columnHeader4});
-            listViewGroup3.Header = "Windows 11";
-            listViewGroup3.Name = "listViewGroup1";
-            listViewGroup4.Header = "Windows 10";
-            listViewGroup4.Name = "listViewGroup2";
+            listViewGroup5.Header = "Windows 11 Semi-Annual";
+            listViewGroup5.Name = "listViewGroup1";
+            listViewGroup6.Header = "Windows 10 Semi-Annual";
+            listViewGroup6.Name = "listViewGroup2";
+            listViewGroup7.Header = "Windows 10 LTSC 2021 и 2019";
+            listViewGroup7.Name = "listViewGroup3";
+            listViewGroup8.Header = "Windows 10 LTSB 2016";
+            listViewGroup8.Name = "listViewGroup4";
+            listViewGroup9.Header = "Windows 10 LTSB 2015";
+            listViewGroup9.Name = "listViewGroup5";
             this.listView2.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup3,
-            listViewGroup4});
+            listViewGroup5,
+            listViewGroup6,
+            listViewGroup7,
+            listViewGroup8,
+            listViewGroup9});
             this.listView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            listViewItem6.Group = listViewGroup3;
-            listViewItem6.StateImageIndex = 0;
-            listViewItem7.Group = listViewGroup3;
-            listViewItem7.StateImageIndex = 0;
-            listViewItem8.Group = listViewGroup4;
-            listViewItem9.Group = listViewGroup4;
-            listViewItem10.Group = listViewGroup4;
+            listViewItem12.Group = listViewGroup5;
+            listViewItem12.StateImageIndex = 0;
+            listViewItem13.Group = listViewGroup5;
+            listViewItem14.Group = listViewGroup5;
+            listViewItem15.Group = listViewGroup5;
+            listViewItem16.Group = listViewGroup5;
+            listViewItem17.Group = listViewGroup5;
+            listViewItem18.Group = listViewGroup5;
+            listViewItem19.Group = listViewGroup5;
+            listViewItem20.Group = listViewGroup5;
+            listViewItem21.Group = listViewGroup5;
+            listViewItem22.Group = listViewGroup5;
+            listViewItem23.Group = listViewGroup5;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem6,
-            listViewItem7,
-            listViewItem8,
-            listViewItem9,
-            listViewItem10});
+            listViewItem12,
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21,
+            listViewItem22,
+            listViewItem23});
             this.listView2.Location = new System.Drawing.Point(3, 0);
             this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
@@ -476,16 +559,17 @@
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "OS";
-            this.columnHeader3.Width = 450;
+            this.columnHeader3.Text = "Версия операционной системы";
+            this.columnHeader3.Width = 440;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Key";
+            this.columnHeader4.Text = "Ключ продукта клиента KMS";
             this.columnHeader4.Width = 450;
             // 
             // button9
             // 
+            this.button9.Enabled = false;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.MediumSeaGreen;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
@@ -499,6 +583,7 @@
             // 
             // button8
             // 
+            this.button8.Enabled = false;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
@@ -528,11 +613,12 @@
             // 
             this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Enabled = false;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(225, 83);
+            this.button10.Location = new System.Drawing.Point(239, 96);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(61, 61);
+            this.button10.Size = new System.Drawing.Size(51, 51);
             this.button10.TabIndex = 4;
             this.button10.UseVisualStyleBackColor = true;
             // 
@@ -541,9 +627,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(49, 65);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 25);
+            this.label5.Size = new System.Drawing.Size(234, 25);
             this.label5.TabIndex = 3;
-            this.label5.Text = "127.0.0.1";
+            this.label5.Text = "выбора подключения KMS";
             // 
             // pictureBox4
             // 
@@ -559,9 +645,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(49, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 25);
+            this.label4.Size = new System.Drawing.Size(172, 25);
             this.label4.TabIndex = 1;
-            this.label4.Text = "127.0.0.1";
+            this.label4.Text = "Выберите ключ для";
             // 
             // pictureBox3
             // 
