@@ -11,10 +11,8 @@
 
 ## Зависимости EWSS Tool C#
 
-- **.NET 6 Desktop Runtime** и выше
+- [**.NET 6 Desktop Runtime**](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) и выше
 - **PowerShell 5** и выше
-
-https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 ## Функционал кнопок быстрого доступа
 
@@ -30,7 +28,9 @@ https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 Для активации используется общий ключ продукта LTSC и LTSB версий ОС с [официального сайта Microsoft](https://docs.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys#windows-server-ltscltsb-versions). 
 
-Активация не подразумевает использование виртуального сетевого адаптера и эмуляции KMS сервера. KMS сервера используемые для активации являются свободным ресурсом и ответственность за их предназначение лежит на их владельце.
+Активация не подразумевает использование виртуального сетевого адаптера и эмуляции KMS сервера. KMS сервера используемые для активации являются свободным ресурсом и ответственность за их предназначение лежит на их владельцах.
+
+⚠️ _В этой версии EWSS Tool список поддерживаемых ОС сокращен до часто используемых. Версии 2008 и 2012 удалены. Добавлены GVLK ключи пользовательских ОС вплоть до Windows 7._
 
 ### Тестирование EWSS 🔑 Активатора в ОС
 | Отметка               | Статус                    |
@@ -39,45 +39,62 @@ https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 | :black_square_button: | Тестирование не проводили |
 | :x:                   | Не работает               |
 
+#### Серверные ОС
+
   - **2022**
-    - :white_check_mark: Windows Server 2022 Standart
-    - :white_check_mark: Windows Server 2022 Datacenter
+    - :black_square_button: Windows Server 2022 Standart
+    - :black_square_button: Windows Server 2022 Datacenter
   - **2019**
-    - :white_check_mark: Windows Server 2019 Datacenter
-    - :white_check_mark: Windows Server 2019 Standard
-    - :white_check_mark: Windows Server 2019 Essentials
+    - :black_square_button: Windows Server 2019 Datacenter
+    - :black_square_button: Windows Server 2019 Standard
+    - :black_square_button: Windows Server 2019 Essentials
   - **2016**
-    - :white_check_mark: Windows Server 2016 Datacenter
+    - :black_square_button: Windows Server 2016 Datacenter
     - :white_check_mark: Windows Server 2016 Standard
     - :black_square_button: Windows Server 2016 Essentials
-  - **Windows Server, versions 20H2, 2004, 1909, 1903, and 1809**
-    - :black_square_button: Windows Server Datacenter
-    - :black_square_button: Windows Server Standard
-  - **2012**
+  - **2012 R2**
     - :white_check_mark: Windows Server 2012 R2 Standard
     - :white_check_mark: Windows Server 2012 R2 Datacenter
     - :black_square_button: Windows Server 2012 R2 Essentials
-    - :black_square_button: Windows Server 2012
-    - :black_square_button: Windows Server 2012 N
-    - :black_square_button: Windows Server 2012 Single Language
-    - :black_square_button: Windows Server 2012 Country Specific
-    - :white_check_mark: Windows Server 2012 Standard
-    - :black_square_button: Windows Server 2012 MultiPoint Standard
-    - :black_square_button: Windows Server 2012 MultiPoint Premium
-    - :white_check_mark: Windows Server 2012 Datacenter
-  - **2008**
-    - :x: Windows Server 2008 R2 Web
-    - :x: Windows Server 2008 R2 HPC edition
-    - :white_check_mark: Windows Server 2008 R2 Standard
-    - :white_check_mark: Windows Server 2008 R2 Enterprise
-    - :white_check_mark: Windows Server 2008 R2 Datacenter
-    - :x: Windows Server 2008 R2 for Itanium-based Systems
-    - :x: Windows Web Server 2008
-    - :white_check_mark: Windows Server 2008 Standard
-    - :x: Windows Server 2008 Standard without Hyper-V
-    - :x: Windows Server 2008 Enterprise
-    - :x: Windows Server 2008 Enterprise without Hyper-V
-    - :x: Windows Server 2008 HPC
-    - :x: Windows Server 2008 Datacenter
-    - :x: Windows Server 2008 Datacenter without Hyper-V
-    - :x: Windows Server 2008 for Itanium-Based Systems
+
+#### Пользовательские ОС
+
+  - **Windows 11**
+    - :black_square_button: Windows 11 Pro
+    - :black_square_button: Windows 11 Pro N
+    - :black_square_button: Windows 11 Pro для рабочих станций
+    - :black_square_button: Windows 11 Pro для рабочих станций N
+    - :black_square_button: Windows 11 Pro для образовательных учреждений
+    - :black_square_button: Windows 11 Pro для образовательных учреждений N
+    - :black_square_button: Windows 11 для образовательных учреждений
+    - :black_square_button: Windows 11 для образовательных учреждений N
+    - :black_square_button: Windows 11 Корпоративная
+    - :black_square_button: Windows 11 Корпоративная N
+    - :black_square_button: Windows 11 Корпоративная G
+    - :black_square_button: Windows 11 Корпоративная G N
+  - **Windows 10**
+    - :black_square_button: Windows 10 Pro
+    - :black_square_button: Windows 10 Pro N
+    - :black_square_button: Windows 10 Pro для рабочих станций
+    - :black_square_button: Windows 10 Pro для рабочих станций N
+    - :black_square_button: Windows 10 Pro для образовательных учреждений
+    - :black_square_button: Windows 10 Pro для образовательных учреждений N
+    - :black_square_button: Windows 10 для образовательных учреждений
+    - :black_square_button: Windows 10 для образовательных учреждений N
+    - :black_square_button: Windows 10 Корпоративная
+    - :black_square_button: Windows 10 Корпоративная N
+    - :black_square_button: Windows 10 Корпоративная G
+    - :black_square_button: Windows 10 Корпоративная G N
+  - **Windows 10 LTSC 2021 и 2019**
+    - :black_square_button: Windows 10 Корпоративная LTSC 2021
+    - :black_square_button: Windows 10 Корпоративная LTSC 2019
+    - :black_square_button: Windows 10 Корпоративная N LTSC 2021
+    - :black_square_button: Windows 10 Корпоративная N LTSC 2019
+  - **Windows 10 2016**
+    - :black_square_button: Windows 10 Корпоративная LTSB 2016
+    - :black_square_button: Windows 10 Корпоративная N LTSB 2016
+  - **Windows 10 2015**
+    - :black_square_button: Windows 10 Корпоративная 2015 с долгосрочным обслуживанием
+    - :black_square_button: Windows 10 Корпоративная 2015 с долгосрочным обслуживанием N
+    
+ 
